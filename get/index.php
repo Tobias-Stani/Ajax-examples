@@ -12,16 +12,7 @@
 
 <!-- Supongamos que tienes una variable en PHP llamada $datos -->
 <?php
-$datos = array(
-    'parametro1' => 'valor1',
-    'parametro2' => 'valor2',
-    'parametro3' => 'valor2',
-    'parametro4' => 'valor2',
-    'parametro5' => 'valor2',
-    'parametro6' => 'valor2',
-    'parametro7' => 'valor2',
-    // ... otros parámetros
-);
+    $datos = array('dato1' => 'valor1', 'dato2' => 'valor2', 'dato3' => 'valor3');
 ?>
 
 <button onclick="realizarSolicitud()">Hacer solicitud AJAX</button>

@@ -33,6 +33,13 @@
 // }
 ?>
 
+<style>
+    body{
+        background-color: black;
+        color:azure;
+    }
+</style>
+
 <?php
 // Verificar si se están recibiendo datos mediante GET
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {

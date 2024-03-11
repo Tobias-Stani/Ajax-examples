@@ -1,3 +1,10 @@
+<style>
+    body{
+        background-color: black;
+        color:azure;
+    }
+</style>
+
 <?php
 // Verifica si se han enviado datos por POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
